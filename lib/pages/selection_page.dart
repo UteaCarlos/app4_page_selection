@@ -15,7 +15,8 @@ class _SelectionPageState extends State<SelectionPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Date Picker Example"),
+        backgroundColor: Colors.deepOrange,
+        title: const Text("Data Picker"),
         centerTitle: true,
         elevation: 0,
       ),
@@ -47,11 +48,11 @@ class _SelectionPageState extends State<SelectionPage> {
                   });
                 },
                 child: const Padding(
-                  padding: EdgeInsets.all(14.0),
+                  padding: EdgeInsets.all(16.0),
                   child: Text(
-                    "Seleccionar Fecha Cumpleaños",
+                    "Fecha de nacimiento",
                     style:
-                        TextStyle(fontSize: 22.0, fontWeight: FontWeight.w600),
+                        TextStyle(fontSize: 25.0, fontWeight: FontWeight.w600),
                   ),
                 ))
           ],
